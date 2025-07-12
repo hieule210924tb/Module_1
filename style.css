@@ -261,3 +261,22 @@ header {
   font-size: 16px;
   text-transform: uppercase;
 }
+.fix-button {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+.fix-button i {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: #55c57a;
+  color: #fff;
+}
