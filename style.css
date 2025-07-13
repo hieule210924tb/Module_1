@@ -7,10 +7,20 @@ body {
   background-color: #f7f7f7;
 }
 header {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: center;
   height: 92px;
-  background-color: black;
+  background-color: #00000082;
+  z-index: 99;
+}
+header:hover {
+  background-color: #000000;
+  transition: 0.3s ease-in;
+  .menu a {
+    color: #fff;
+  }
 }
 .header-content {
   width: 1200px;
@@ -24,8 +34,11 @@ header {
 }
 .menu a {
   padding: 15px;
-  color: #fff;
+  color: #000;
   text-decoration: none;
+}
+.menu a:hover {
+  color: #0606f7;
 }
 .container {
   display: flex;
