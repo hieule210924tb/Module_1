@@ -37,9 +37,6 @@ header:hover {
   color: #000;
   text-decoration: none;
 }
-.menu a:hover {
-  color: #0606f7;
-}
 .container {
   display: flex;
   justify-content: center;
@@ -75,6 +72,11 @@ header:hover {
   color: #999;
   font-size: 16px;
   cursor: pointer;
+}
+.container-content button:hover {
+  transform: translateY(3px);
+  background-color: #28b485;
+  color: #777;
 }
 .selection {
   display: flex;
